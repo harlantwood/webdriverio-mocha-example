@@ -1,7 +1,7 @@
 {
   "name": "webdriverio-mocha-example",
   "version": "0.0.0",
-  "description": "Simple demo of integrating webdriverio and mocha, using selenium-standalone",
+  "description": "Simple example integrating webdriverio and mocha, using selenium-standalone server",
   "scripts": {
     "selenium": "selenium-standalone install && selenium-standalone start",
     "test": "npm run selenium & (sleep 5 && mocha --recursive --compilers coffee:coffee-script/register)",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/harlantwood/webdriverio-mocha-example#readme",
   "devDependencies": {
     "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
     "mocha": "^2.2.5",
     "selenium-standalone": "^4.4.2",
     "webdriverio": "^2.4.5"
