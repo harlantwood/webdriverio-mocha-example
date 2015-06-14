@@ -4,7 +4,7 @@ webdriverio = require('webdriverio')
 describe 'simple test', ->
   it 'should get the title from Google.com', (done) ->
     @timeout 60 * 1000
-    options = desiredCapabilities: browserName: 'chrome'
+    options = desiredCapabilities: browserName: 'phantomjs'
     client = webdriverio.remote(options)
     client
     .init()
