@@ -1,6 +1,8 @@
-This is a simple example integrating webdriverio and mocha (lightly sugared with chai), using selenium-standalone server.
+This is a simple example integrating:
 
-It works out of the box with Circle CI, and likely other CI services too.
+- webdriverio using phantomjs
+- mocha (lightly sugared with chai)
+- selenium-standalone for the selenium server
 
 To run:
 
@@ -11,6 +13,8 @@ On my local box, the selenium server does not get killed, so I run:
 `npm run testy` (bad pun)
 
 On CI it works fine as is.
+
+[It works out of the box with Circle CI](https://circleci.com/gh/harlantwood/webdriverio-mocha-example), and likely other CI services too.
 
 The test is written in coffeescript.  If you prefer JS, [convert here](http://js2.coffee/).
 
