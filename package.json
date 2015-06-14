@@ -4,7 +4,7 @@
   "description": "Simple demo of integrating webdriverio and mocha, using selenium-standalone",
   "scripts": {
     "selenium": "selenium-standalone install && selenium-standalone start",
-    "test": "npm run selenium & (sleep 5 && node test.js)",
+    "test": "npm run selenium & (sleep 5 && mocha --recursive --compilers coffee:coffee-script/register)",
     "testy": "killall java && npm test"
   },
   "repository": {
