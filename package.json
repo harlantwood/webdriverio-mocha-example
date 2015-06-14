@@ -1,0 +1,33 @@
+{
+  "name": "webdriverio-mocha-example",
+  "version": "0.0.0",
+  "description": "Simple demo of integrating webdriverio and mocha, using selenium-standalone",
+  "scripts": {
+    "selenium": "selenium-standalone install && selenium-standalone start",
+    "test": "npm run selenium & (sleep 5 && node test.js)",
+    "testy": "killall java && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/harlantwood/webdriverio-mocha-example.git"
+  },
+  "keywords": [
+    "mocha",
+    "webdriver",
+    "webdriverio",
+    "testing",
+    "CI"
+  ],
+  "author": "Harlan T Wood <code@harlantwood.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harlantwood/webdriverio-mocha-example/issues"
+  },
+  "homepage": "https://github.com/harlantwood/webdriverio-mocha-example#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "selenium-standalone": "^4.4.2",
+    "webdriverio": "^2.4.5"
+  }
+}
