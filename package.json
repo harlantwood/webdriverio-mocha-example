@@ -19,7 +19,7 @@
     "CI"
   ],
   "author": "Harlan T Wood <code@harlantwood.net>",
-  "license": "MIT",
+  "license": "",
   "bugs": {
     "url": "https://github.com/harlantwood/webdriverio-mocha-example/issues"
   },
